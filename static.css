@@ -1,11 +1,11 @@
-/* Första tärning */
+/* Första tärningen */
 
 .staticDots-1>.staticDotOne {
     grid-column: 3/3;
     grid-row: 3/3;
 }
 
-/* andra tärning */
+/* Andra tärningen */
 .staticDots-2>.staticDotOne {
     grid-column: 2/2;
     grid-row: 2/2;
@@ -16,7 +16,7 @@
     grid-row: 4/4;
 }
 
-/* Tredje tärning */
+/* Tredje tärningen */
 .staticDots-3>.staticDotOne {
     grid-column: 2/2;
     grid-row: 2/2;
@@ -33,7 +33,7 @@
 }
 
 
-/* Fjärde tärning */
+/* Fjärde tärningen */
 
 .staticDots-4>.staticDotOne {
     grid-column: 2/2;
@@ -55,7 +55,7 @@
     grid-row: 4/4;
 }
 
-/* Femte tärning */
+/* Femte tärningen */
 .staticDots-5>.staticDotOne {
     grid-column: 2/2;
     grid-row: 2/2;
@@ -81,7 +81,7 @@
     grid-row: 4/4;
 }
 
-/* Sjätte tärning */
+/* Sjätte tärningen */
 .staticDots-6>.staticDotOne {
     grid-column: 2/2;
     grid-row: 2/2;
