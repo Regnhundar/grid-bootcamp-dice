@@ -1,0 +1,113 @@
+.dice {
+    display: grid;
+    background-color: black;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: .5rem;
+    width: 100px;
+    height: 100px;
+    margin: 1rem;
+}
+
+.dots-1 {
+    grid-template-areas:
+        ". . . . ."
+        ". . . . ."
+        ". . item1 . ."
+        ". . . . ."
+        ". . . . .";
+}
+
+.dots-2 {
+    grid-template-areas:
+        ". . . . ."
+        ". item1 . . ."
+        ". . . . ."
+        ". . . item2 ."
+        ". . . . .";
+}
+
+.dots-3 {
+    grid-template-areas:
+        ". . . . ."
+        ". item1 . . ."
+        ". . item2 . ."
+        ". . . item3 ."
+        ". . . . .";
+}
+
+
+.dots-4 {
+    grid-template-areas:
+        ". . . . ."
+        ". item1 . item2 ."
+        ". . . . ."
+        ". item3 . item4 ."
+        ". . . . .";
+}
+
+.dots-5 {
+    grid-template-areas:
+        ". . . . ."
+        ". item1 . item2 ."
+        ". . item3 . ."
+        ". item4 . item5 ."
+        ". . . . .";
+}
+
+.dots-6 {
+    grid-template-areas:
+        ". . . . ."
+        ". item1 . item2 ."
+        ". item3 . item4 ."
+        ". item5 . item6 ."
+        ". . . . .";
+}
+
+.dotOne {
+    border-radius: .5rem;
+    height: 1rem;
+    width: 1rem;
+    grid-area: item1;
+    background-color: white;
+}
+
+.dotTwo {
+    border-radius: .5rem;
+    height: 1rem;
+    width: 1rem;
+    grid-area: item2;
+    background-color: white;
+}
+
+.dotThree {
+    border-radius: .5rem;
+    height: 1rem;
+    width: 1rem;
+    grid-area: item3;
+    background-color: white;
+}
+
+.dotFour {
+    border-radius: .5rem;
+    height: 1rem;
+    width: 1rem;
+    grid-area: item4;
+    background-color: white;
+}
+
+.dotFive {
+    border-radius: .5rem;
+    height: 1rem;
+    width: 1rem;
+    grid-area: item5;
+    background-color: white;
+}
+
+.dotSix {
+    border-radius: .5rem;
+    height: 1rem;
+    width: 1rem;
+    grid-area: item6;
+    background-color: white;
+}
