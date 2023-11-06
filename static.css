@@ -1,0 +1,113 @@
+/* Första tärning */
+
+.staticDots-1>.staticDotOne {
+    grid-column: 3/3;
+    grid-row: 3/3;
+}
+
+/* andra tärning */
+.staticDots-2>.staticDotOne {
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
+
+.staticDots-2>.staticDotTwo {
+    grid-column: 4/4;
+    grid-row: 4/4;
+}
+
+/* Tredje tärning */
+.staticDots-3>.staticDotOne {
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
+
+.staticDots-3>.staticDotTwo {
+    grid-column: 3/3;
+    grid-row: 3/3;
+}
+
+.staticDots-3>.staticDotThree {
+    grid-column: 4/4;
+    grid-row: 4/4;
+}
+
+
+/* Fjärde tärning */
+
+.staticDots-4>.staticDotOne {
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
+
+.staticDots-4>.staticDotTwo {
+    grid-column: 4/4;
+    grid-row: 2/2;
+}
+
+.staticDots-4>.staticDotThree {
+    grid-column: 2/2;
+    grid-row: 4/4;
+}
+
+.staticDots-4>.staticDotFour {
+    grid-column: 4/4;
+    grid-row: 4/4;
+}
+
+/* Femte tärning */
+.staticDots-5>.staticDotOne {
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
+
+.staticDots-5>.staticDotTwo {
+    grid-column: 4/4;
+    grid-row: 2/2;
+}
+
+.staticDots-5>.staticDotThree {
+    grid-column: 3/3;
+    grid-row: 3/3;
+}
+
+.staticDots-5>.staticDotFour {
+    grid-column: 2/2;
+    grid-row: 4/4;
+}
+
+.staticDots-5>.staticDotFive {
+    grid-column: 4/4;
+    grid-row: 4/4;
+}
+
+/* Sjätte tärning */
+.staticDots-6>.staticDotOne {
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
+
+.staticDots-6>.staticDotTwo {
+    grid-column: 4/4;
+    grid-row: 2/2;
+}
+
+.staticDots-6>.staticDotThree {
+    grid-column: 2/2;
+    grid-row: 3/3;
+}
+
+.staticDots-6>.staticDotFour {
+    grid-column: 4/4;
+    grid-row: 3/3;
+}
+
+.staticDots-6>.staticDotFive {
+    grid-column: 2/2;
+    grid-row: 4/4;
+}
+
+.staticDots-6>.staticDotSix {
+    grid-column: 4/4;
+    grid-row: 4/4;
+}

@@ -1,5 +1,19 @@
+section {
+    border: .5rem black solid;
+    width: 20vw;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    margin: 1rem;
+}
+
+main {
+    display: flex;
+}
+
 .dice {
     display: grid;
+    align-self: center;
     background-color: black;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
