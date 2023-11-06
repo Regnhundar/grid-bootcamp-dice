@@ -36,7 +36,6 @@
         ". . . . .";
 }
 
-
 .dots-4 {
     grid-template-areas:
         ". . . . ."
@@ -64,50 +63,33 @@
         ". . . . .";
 }
 
-.dotOne {
+.dot {
+    background-color: white;
     border-radius: .5rem;
     height: 1rem;
     width: 1rem;
+}
+
+.dotOne {
     grid-area: item1;
-    background-color: white;
 }
 
 .dotTwo {
-    border-radius: .5rem;
-    height: 1rem;
-    width: 1rem;
     grid-area: item2;
-    background-color: white;
 }
 
 .dotThree {
-    border-radius: .5rem;
-    height: 1rem;
-    width: 1rem;
     grid-area: item3;
-    background-color: white;
 }
 
 .dotFour {
-    border-radius: .5rem;
-    height: 1rem;
-    width: 1rem;
     grid-area: item4;
-    background-color: white;
 }
 
 .dotFive {
-    border-radius: .5rem;
-    height: 1rem;
-    width: 1rem;
     grid-area: item5;
-    background-color: white;
 }
 
 .dotSix {
-    border-radius: .5rem;
-    height: 1rem;
-    width: 1rem;
     grid-area: item6;
-    background-color: white;
 }
